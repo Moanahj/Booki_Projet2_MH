@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header_Nav ***********/
+
+.menu-navigation {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo img{
+    width: 80px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.lien-navigation a:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 20px;
+    color: #0065FC;
+}
+
+.lien-navigation a {
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
 /****** Header_Recherche Localisation ***********/
 
 .bouton-rechercher {
