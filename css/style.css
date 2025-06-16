@@ -115,6 +115,13 @@ a {
 
 .barre-recherche {
     border: none;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
 }
 
 .bouton-rechercher {
@@ -125,6 +132,8 @@ a {
     border-bottom-right-radius: 15px;
     padding: 15px 16px;
     gap: 10px;
+    font-size: large;
+    font-weight: bold;
 }
 
 
@@ -146,13 +155,13 @@ a {
     border-radius: 25px;
     display: flex;
     gap: 10px;
-    padding: 4px 19px;
+    padding: 10px 19px;
+    font-weight: bold;
 }
 
 .filtres:hover {
     background-color: #DEEBFF;
 }
-
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
