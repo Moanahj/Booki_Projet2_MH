@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+
 }
 
 :root {
@@ -16,6 +18,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .main-container {
@@ -305,7 +309,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    margin: 10px;
 }
 
 .menu-pied-de-page {
