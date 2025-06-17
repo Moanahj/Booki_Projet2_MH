@@ -92,6 +92,10 @@ a {
 
 /****** Header_Recherche Localisation ***********/
 
+.recherche-hebergements-titre{
+    padding-bottom: 20px;
+}
+
 .recherche-hebergements-titre h1 {
     margin-bottom: -12px;
 }
@@ -146,6 +150,7 @@ a {
     justify-content:flex-start;
     align-items: center;
     gap: 15px;
+    padding-top: 20px;
 }
 
 .filtres {
@@ -157,6 +162,11 @@ a {
     gap: 10px;
     padding: 10px 19px;
     font-weight: bold;
+}
+
+.information {
+    margin-top: -15px;
+    margin-bottom: 30px;
 }
 
 .filtres:hover {
@@ -322,6 +332,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    
 }
 
 .activites-cards .card-title {
