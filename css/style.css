@@ -301,14 +301,12 @@ a {
 .activites-presentation {
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .activites section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 .activites-title {
@@ -318,32 +316,25 @@ a {
 
 .activites-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .activites-cards .card {
-    display: flex; 
-    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 100%;
+    height: 100%;
     margin-top: 30px;
-    height: 80%;
 }
 
 .activites-cards img {
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 80%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.activites-cards .card-content {
-    width: 100%;
-    margin: 0px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    object-fit: cover;
 }
 
 .activites-cards .card-title {
@@ -356,6 +347,7 @@ a {
 
 .footer {
     background-color: #F2F2F2;
+    margin-top: 30px;
 }
 
 .footer h4 {
