@@ -2,7 +2,8 @@
 * {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-
+    margin: 0%;
+    padding: 0%;
 }
 
 :root {
@@ -71,17 +72,17 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
-.logo img{
-    width: 80px;
-    height: 25px;
-    margin-top: 20px;
+.logo img {
+    width: 61px;
+    height: 19px;
 }
 
 .lien-navigation a:hover {
     border-top: 2px solid #0065FC;
-    padding-top: 10px;
+    padding-top: 19px;
     color: #0065FC;
 }
 
@@ -92,12 +93,12 @@ a {
 
 /****** Header_Recherche Localisation ***********/
 
-.recherche-hebergements-titre{
-    padding-bottom: 20px;
+.recherche-hebergements {
+    margin: 30px 0px;
 }
 
-.recherche-hebergements-titre h1 {
-    margin-bottom: -12px;
+.recherche-hebergements-titre {
+    padding-bottom: 20px;
 }
 
 .recherche {
@@ -141,16 +142,15 @@ a {
 }
 
 
-/****** Header_Filtres ***********/
+/****** Header_Filtres and Information ***********/
 
 .filtres-button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:flex-start;
     align-items: center;
     gap: 15px;
-    padding-top: 20px;
+    padding: 20px 10px;
 }
 
 .filtres {
@@ -165,8 +165,18 @@ a {
 }
 
 .information {
-    margin-top: -15px;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.info-icon {
+    border-radius: 50%;
+    border: 2px solid #D9D9D9;
+    width: 24px;
+    height: 24px;
+    line-height: 23px;
+    text-align: center;
 }
 
 .filtres:hover {
@@ -224,6 +234,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+
 }
 
 .hebergements-cards .card-title {
@@ -290,6 +301,7 @@ a {
 .activites-presentation {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .activites section {
@@ -311,7 +323,7 @@ a {
 }
 
 .activites-cards .card {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     margin-top: 30px;
     height: 80%;
@@ -322,24 +334,21 @@ a {
     height: 80%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: cover;
 }
 
 .activites-cards .card-content {
     width: 100%;
-    margin: 10px;
+    margin: 0px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    
 }
 
 .activites-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
-    display: flex;
-    justify-content: left;
 }
 
 
@@ -347,6 +356,10 @@ a {
 
 .footer {
     background-color: #F2F2F2;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
 }
 
 .pied-de-page {
