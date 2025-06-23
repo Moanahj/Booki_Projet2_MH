@@ -431,6 +431,7 @@ li {
         padding: 0px;
         margin: 0px;
     }
+
     /*** Header ***/
     header .menu-navigation {
         display: flex;
@@ -523,5 +524,21 @@ li {
             flex-direction: column;
         }
 
+    /*** Activites ***/
+        .activites-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+    /*** Footer ***/
+
+        .pied-de-page {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .menu-pied-de-page {
+            padding-bottom: 12px;
+        }
 }
 
