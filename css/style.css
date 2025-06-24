@@ -428,32 +428,33 @@ li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     body {
-        padding: 0px;
-        margin: 0px;
+        margin: -10px;
+        padding: -10px;
     }
 
     /*** Header ***/
     header .menu-navigation {
         display: flex;
         flex-direction: column;
-        padding-bottom: 30px;
+        width: 100%;
     }
 
     .logo img {
-        margin: 20px;
+        margin: 50px;
+        width: 35%;
+        height: 45%;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
     }
 
+    /* Elargir le champ des liens  */
     .lien-navigation {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: space-between;
+
     }
 
     .lien-navigation a:hover {
-        display: none;
+        border-top: none;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
     }
@@ -490,6 +491,9 @@ li {
         .filtres {
             width: 47%;
             font-size: 11px;
+            display: flex;
+            justify-content: center;
+            font-size: medium;
         }
 
         .info-icon {
