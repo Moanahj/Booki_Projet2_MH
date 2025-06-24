@@ -460,6 +460,15 @@ li {
         }
 
     /*** Recherche ***/
+
+        .recherche-hebergements-titre {
+            margin-bottom: 15px;
+        }
+
+        .recherche-localisation {
+            margin-bottom: 15px;
+        }
+
         .bouton-rechercher-1 {
             display: none;
         }
@@ -486,6 +495,7 @@ li {
             display: flex;
             flex-wrap: wrap;
             padding: 0px 0px 15px 0px;
+            object-position: center;
         }
 
         .filtres {
