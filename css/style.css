@@ -427,55 +427,55 @@ li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    body {
-        margin: -10px;
-        padding: -10px;
-    }
+        body {
+            margin: -10px;
+            padding: -10px;
+        }
 
     /*** Header ***/
-    header .menu-navigation {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+        header .menu-navigation {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
 
-    .logo img {
-        margin: 50px;
-        width: 35%;
-        height: 45%;
-        display: flex;
-        align-items: center;
-        margin-left: 110px;
-    }
+        .logo img {
+            margin: 50px;
+            width: 35%;
+            height: 45%;
+            display: flex;
+            align-items: center;
+            margin-left: 110px;
+        }
 
     /* Elargir le champ des liens  */
-    .lien-navigation {
+        .lien-navigation {
 
-    }
+        }
 
-    .lien-navigation a:hover {
-        border-top: none;
-        border-bottom: 2px solid #0065FC;
-        color: #0065FC;
-    }
+        .lien-navigation a:hover {
+            border-top: none;
+            border-bottom: 2px solid #0065FC;
+            color: #0065FC;
+        }
 
     /*** Recherche ***/
-    .bouton-rechercher-1 {
-        display: none;
-    }
+        .bouton-rechercher-1 {
+            display: none;
+        }
 
-    .recherche .fa-magnifying-glass {
-        display: block;
-        color: white;
-        background-color:#0065FC;
-        width: 50px;
-        height: 50px;
-        border-radius: 15px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-    }
+        .recherche .fa-magnifying-glass {
+            display: block;
+            color: white;
+            background-color:#0065FC;
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
     /*** Filtres and Information ***/
 
         .filtres-titre {
@@ -521,6 +521,7 @@ li {
 
         .populaires {
             background-color: var(--main-bg-color);
+            
         }
 
         .populaires-cards {
@@ -528,11 +529,18 @@ li {
             flex-direction: column;
         }
 
+        .populaires-cards a {
+            width: 100%;
+        }
+
+
     /*** Activites ***/
         .activites-cards {
             display: grid;
             grid-template-columns: 1fr;
         }
+
+       
 
     /*** Footer ***/
 
