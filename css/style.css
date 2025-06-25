@@ -464,6 +464,9 @@ li {
             width: 50%;
             margin-right: 0px;
             text-align: center;
+            padding-bottom: 5px;
+            box-sizing: border-box;
+            border-bottom: 2px solid transparent;
         }
 
         .lien-navigation a:hover {
@@ -471,7 +474,6 @@ li {
             padding-bottom: 5px;
             border-top: none;
             border-bottom: 2px solid #0065FC;
-            color: #0065FC;
         }
 
     /*** Recherche ***/
