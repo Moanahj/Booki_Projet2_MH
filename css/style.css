@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -187,6 +188,7 @@ a {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -199,6 +201,7 @@ a {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
     background-color: var(--main-bg-color);
@@ -237,7 +240,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-
 }
 
 .hebergements-cards .card-title {
@@ -255,6 +257,7 @@ a {
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
     background-color: var(--main-bg-color);
@@ -362,13 +365,14 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .menu-pied-de-page {
     display: flex;
     flex-direction: column;
+    margin: 0px 20px;
 }
 
 .menu-pied-de-page li {
@@ -427,12 +431,13 @@ li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-        body {
-            margin: -10px;
-            padding: -10px;
+
+        .main-container {
+            padding: 0px;
         }
 
     /*** Header ***/
+
         header .menu-navigation {
             display: flex;
             flex-direction: column;
@@ -448,18 +453,33 @@ li {
             margin-left: 110px;
         }
 
-    /* Elargir le champ des liens  */
         .lien-navigation {
+            display: flex;
+            width: 100%;
+            padding-bottom: 5px;
+        }
 
+        .lien-navigation a {
+            display: inline-block;
+            width: 50%;
+            margin-right: 0px;
+            text-align: center;
         }
 
         .lien-navigation a:hover {
+            padding-top: 0px;
+            padding-bottom: 5px;
             border-top: none;
             border-bottom: 2px solid #0065FC;
             color: #0065FC;
         }
 
     /*** Recherche ***/
+        
+        .recherche-hebergements {
+            margin: 20px;
+            padding: -10px;
+        }
 
         .recherche-hebergements-titre {
             margin-bottom: 15px;
@@ -485,6 +505,7 @@ li {
             flex-direction: column;
             align-items: center;
         }
+
     /*** Filtres and Information ***/
 
         .filtres-titre {
@@ -516,9 +537,14 @@ li {
         }
 
     /*** Hebergements and Populaires ***/
+
         .hebergements-and-populaires {
             display: flex;
-            flex-direction: column-reverse ;
+            flex-direction: column-reverse;
+        }
+
+        .hebergements-and-populaires section {
+            border-radius: 0px;
         }
 
         .hebergements {
@@ -545,6 +571,12 @@ li {
 
 
     /*** Activites ***/
+        
+        .activites-presentation{
+            margin: 30px;
+            padding: 10px;
+        }
+
         .activites-cards {
             display: grid;
             grid-template-columns: 1fr;
